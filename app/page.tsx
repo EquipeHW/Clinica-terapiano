@@ -66,9 +66,9 @@ export default function ClinicaTerapiandoPage() {
               </Link>
             </nav>
 
-            <Button className="bg-[#6A1B9A] hover:bg-purple-700 text-white font-medium">
+            <Button className="bg-[#6A1B9A] hover:bg-purple-700 text-white font-bold">
               <MessageCircle className="mr-2 h-4 w-4" />
-              Agendar
+              AGENDAR CONSULTA
             </Button>
           </div>
         </div>
@@ -103,17 +103,11 @@ export default function ClinicaTerapiandoPage() {
               </div>
 
               <div className="flex flex-col sm:flex-row gap-4">
-                <Button size="lg" className="bg-[#6A1B9A] hover:bg-purple-700 text-white font-medium px-8 py-4">
+                <Button size="lg" className="bg-[#6A1B9A] hover:bg-purple-700 text-white font-medium px-8 py-4 font-bold">
                   <MessageCircle className="mr-2 h-5 w-5" />
-                  Agendar Consulta
+                  AGENDAR CONSULTA
                 </Button>
-                <Button
-                  size="lg"
-                  variant="outline"
-                  className="border-gray-300 text-gray-700 hover:bg-gray-50 px-8 py-4"
-                >
-                  Conhecer Serviços
-                </Button>
+                
               </div>
 
               <div className="flex items-center space-x-8 pt-4">
@@ -391,7 +385,7 @@ export default function ClinicaTerapiandoPage() {
                 </div>
               </div>
 
-              <Button className="bg-[#6A1B9A] hover:bg-purple-700 text-white font-medium">Conhecer Nossa Equipe</Button>
+        
             </div>
           </div>
         </div>
