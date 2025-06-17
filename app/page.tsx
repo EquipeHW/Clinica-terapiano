@@ -39,9 +39,9 @@ export default function ClinicaTerapiandoPage() {
               
               <div>
                 <Image
-                  src="/terapianologo.png"
+                  src="/brasaov3.png"
                   alt="Clínica Terapiando"
-                  width={130}
+                  width={100}
                   height={50}
                   className="h-auto"
                 />
@@ -201,7 +201,7 @@ export default function ClinicaTerapiandoPage() {
                   </div>
                   <div className="absolute -top-1 -right-1 w-4 h-4 bg-[#1976D2] rounded-full"></div>
                 </div>
-                <CardTitle className="text-xl text-[#333333] font-semibold">Fisioterapia</CardTitle>
+                <CardTitle className="text-xl text-[#333333] font-semibold">Psicologia</CardTitle>
               </CardHeader>
               <CardContent>
                 <CardDescription className="text-center text-gray-600 leading-relaxed">
@@ -622,7 +622,7 @@ export default function ClinicaTerapiandoPage() {
             <div className="space-y-4">
               <div className="flex items-center space-x-3">
               <Image
-                  src="/terapianologo.png"
+                  src="/brasaov3.png"
                   alt="Clínica Terapiando"
                   width={130}
                   height={50}
