@@ -39,7 +39,7 @@ export default function ClinicaTerapiandoPage() {
               
               <div>
                 <Image
-                  src="/brasaov3.png"
+                  src="/logoterapiando.png"
                   alt="Clínica Terapiando"
                   width={100}
                   height={50}
@@ -622,7 +622,7 @@ export default function ClinicaTerapiandoPage() {
             <div className="space-y-4">
               <div className="flex items-center space-x-3">
               <Image
-                  src="/brasaov3.png"
+                  src="/logoterapiando.png"
                   alt="Clínica Terapiando"
                   width={130}
                   height={50}
