@@ -568,7 +568,7 @@ export default function ClinicaTerapiandoPage() {
                 </div>
                 <div>
                   <h3 className="font-semibold text-[#333333]">Email</h3>
-                  <p className="text-gray-600">clinicaterapiando@gmail.com</p>
+                  <a href="mailto:clinicaterapiando@gmail.com" className="text-gray-600 hover:underline">clinicaterapiando@gmail.com</a>
                 </div>
               </div>
 
@@ -578,11 +578,9 @@ export default function ClinicaTerapiandoPage() {
                 </div>
                 <div>
                   <h3 className="font-semibold text-[#333333]">Endereço</h3>
-                  <p className="text-gray-600">
-                    R. Francisco Almeida, 156
-                    <br />
-                    Centro - Simões Filho/BA
-                  </p>
+                  <a href="https://www.google.com/maps/search/?api=1&query=R.+Francisco+Almeida,+156,+Centro+-+Sim%C3%B5es+Filho,+BA" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:underline">
+                    R. Francisco Almeida, 156<br />Centro - Simões Filho/BA
+                  </a>
                 </div>
               </div>
             </div>
