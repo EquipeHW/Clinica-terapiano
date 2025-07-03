@@ -66,9 +66,11 @@ export default function ClinicaTerapiandoPage() {
               </Link>
             </nav>
 
-            <Button className="bg-[#6A1B9A] hover:bg-purple-700 text-white font-bold">
-              <MessageCircle className="mr-2 h-4 w-4" />
-              AGENDAR CONSULTA
+            <Button asChild className="bg-[#6A1B9A] hover:bg-purple-700 text-white font-bold">
+              <a href="https://wa.me/5571981123720?text=Olá! Gostaria de agendar uma consulta." target="_blank" rel="noopener noreferrer">
+                <MessageCircle className="mr-2 h-4 w-4" />
+                AGENDAR CONSULTA
+              </a>
             </Button>
           </div>
         </div>
@@ -103,9 +105,11 @@ export default function ClinicaTerapiandoPage() {
               </div>
 
               <div className="flex flex-col sm:flex-row gap-4">
-                <Button size="lg" className="bg-[#6A1B9A] hover:bg-purple-700 text-white font-medium px-8 py-4 font-bold">
-                  <MessageCircle className="mr-2 h-5 w-5" />
-                  AGENDAR CONSULTA
+                <Button asChild size="lg" className="bg-[#6A1B9A] hover:bg-purple-700 text-white font-medium px-8 py-4 font-bold">
+                  <a href="https://wa.me/5571981123720?text=Olá! Gostaria de agendar uma consulta." target="_blank" rel="noopener noreferrer">
+                    <MessageCircle className="mr-2 h-5 w-5" />
+                    AGENDAR CONSULTA
+                  </a>
                 </Button>
                 
               </div>
@@ -601,13 +605,17 @@ export default function ClinicaTerapiandoPage() {
               </div>
 
               <div className="mt-8 space-y-3">
-                <Button className="w-full bg-[#6A1B9A] hover:bg-purple-700 text-white font-medium">
-                  <MessageCircle className="mr-2 h-5 w-5" />
-                  Agendar pelo WhatsApp
+                <Button asChild className="w-full bg-[#6A1B9A] hover:bg-purple-700 text-white font-medium">
+                  <a href="https://wa.me/5571981123720?text=Olá! Gostaria de agendar uma consulta." target="_blank" rel="noopener noreferrer">
+                    <MessageCircle className="mr-2 h-5 w-5" />
+                    Agendar pelo WhatsApp
+                  </a>
                 </Button>
-                <Button variant="outline" className="w-full border-gray-300 text-gray-700 hover:bg-gray-50">
-                  <Phone className="mr-2 h-4 w-4" />
-                  Ligar Agora
+                <Button asChild variant="outline" className="w-full border-gray-300 text-gray-700 hover:bg-gray-50">
+                  <a href="tel:+5571981123720">
+                    <Phone className="mr-2 h-4 w-4" />
+                    Ligar Agora
+                  </a>
                 </Button>
               </div>
             </div>
